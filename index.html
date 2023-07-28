@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo2.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png" ></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png" ></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/5.jpg">
+            </div>
+
+        </div>
+            <!-- setting-menu -->
+        <div class="setting-menu">
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/5.jpg">
+                    <div class="">
+                        <p>Khim Sokha</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div class="">
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve a new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-link">
+                    <img src="images/setting.png" class="setting-icon">
+                    <a href="">Setting & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/help.png" class="setting-icon">
+                    <a href="">Help & Support <img src="images/help.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/display.png" class="setting-icon">
+                    <a href="">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/logout.png" class="setting-icon">
+                    <a href="">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+
+            </div>
+            
+        </div>
+
+
+
+    </nav>
+
+
+
+
+
+
+
+    <div class="container">
+        <!-- left-sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png"> Lastest News</a>
+                <a href="#"><img src="images/friends.png"> Friends</a>
+                <a href="#"><img src="images/group.png">  Group</a>
+                <a href="#"><img src="images/marketplace.png"> Marketplace</a>
+                <a href="#"><img src="images/watch.png"> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png"> Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png"> Web Desing Course</a>
+                <a href="#"><img src="images/shortcut-3.png"> Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png"> Webite Experts</a>
+
+            </div>
+        </div>
+        <!-- Main-content -->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/1.jpg">
+                    <p>ស៊ុន សុភ័ក្រត្រា</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/2.jpg">
+                    <p>ស៊ុន សុភ័ក្រត្រា</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/4.jpg">
+                    <p>ប្រាក់ សំណាង</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/3.jpg">
+                    <p>ហ៊ន ស្រីលាភ</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/5.jpg">
+                    <div class="">
+                        <p>Khim Sokha</p>
+                        <small>Public <img src="images/arrowdown.jpg" alt=""></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea name="" id="" rows="3" placeholder="What's on your mind, Sokha?"></textarea>
+                    <div class="add-post-links">
+                        <a href=""><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href=""><img src="images/photo.png" alt="">Photo/Video</a>
+                        <a href=""><img src="images/feeling.png" alt="">Feeling/Activity</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/5.jpg">
+                        <div class="">
+                            <p>Khim Sokha</p>
+                            <span>July 2 2023 10:12 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="images/ellipsis.png" style="width:15px; height: 15px;"></a>
+                </div>
+                <p class="post-text">Subscrioptskk <span>@pusokha Khim</span>sdkfkskjkdfjkskdksfskkjkjsdf asjdhfsk skdj
+                <a href="#">#Pusokha Khim</a><a href="">#love</a></p>
+                <img src="images/feed-image-1.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">56</div>
+                            <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/5.jpg" alt=""><img src="images/arrowdown.jpg" style="width:15px; height: 15px;">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/5.jpg">
+                        <div class="">
+                            <p>Khim Sokha</p>
+                            <span>July 3 2023 10:12 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="images/ellipsis.png" style="width:15px; height: 15px;"></a>
+                </div>
+                <p class="post-text">We are the World <span>@pusokha Khim</span>We are the Children asjdhfsk skdj
+                <a href="#">#Pusokha Khim</a><a href="">#love</a></p>
+                <img src="images/feed-image-2.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                            <div><img src="images/like.png">20</div>
+                            <div><img src="images/comments.png">6</div>
+                            <div><img src="images/share.png">2</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/5.jpg" alt=""><img src="images/arrowdown.jpg" style="width:15px; height: 15px;">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/5.jpg">
+                        <div class="">
+                            <p>Khim Sokha</p>
+                            <span>July 2 2023 10:12 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="images/ellipsis.png" style="width:15px; height: 15px;"></a>
+                </div>
+                <p class="post-text">Subscrioptskk <span>@pusokha Khim</span>sdkfkskjkdfjkskdksfskkjkjsdf asjdhfsk skdj
+                <a href="#">#Pusokha Khim</a><a href="">#love</a></p>
+                <img src="images/feed-image-3.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">56</div>
+                            <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/5.jpg" alt=""><img src="images/arrowdown.jpg" style="width:15px; height: 15px;">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/5.jpg">
+                        <div class="">
+                            <p>Khim Sokha</p>
+                            <span>July 2 2023 10:12 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="images/ellipsis.png" style="width:15px; height: 15px;"></a>
+                </div>
+                <p class="post-text">Subscrioptskk <span>@pusokha Khim</span>sdkfkskjkdfjkskdksfskkjkjsdf asjdhfsk skdj
+                <a href="#">#Pusokha Khim</a><a href="">#love</a></p>
+                <img src="images/feed-image-4.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">56</div>
+                            <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/5.jpg" alt=""><img src="images/arrowdown.jpg" style="width:15px; height: 15px;">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/5.jpg">
+                        <div class="">
+                            <p>Khim Sokha</p>
+                            <span>July 2 2023 10:12 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><img src="images/ellipsis.png" style="width:15px; height: 15px;"></a>
+                </div>
+                <p class="post-text">Subscrioptskk <span>@pusokha Khim</span>sdkfkskjkdfjkskdksfskkjkjsdf asjdhfsk skdj
+                <a href="#">#Pusokha Khim</a><a href="">#love</a></p>
+                <img src="images/feed-image-5.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                            <div><img src="images/like-blue.png">120</div>
+                            <div><img src="images/comments.png">56</div>
+                            <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/5.jpg" alt=""><img src="images/arrowdown.jpg" style="width:15px; height: 15px;">
+                    </div>
+                </div>
+
+            </div>
+             <button type="button" class="load-more-btn">Load More</button>
+
+
+        </div>
+        <!-- right-sidebar -->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>    
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>០៨</h3>
+                    <span>កញ្ញា</span>
+                </div>
+                <div class="right-event">
+                    <h4>ជប់លៀង</h4>
+                    <p><img src="images/location.png">មុខវាំង ភ្នំពេញ</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>២៣</h3>
+                    <span>កញ្ញា</span>
+                </div>
+                <div class="right-event">
+                    <h4>បោះឆ្នោត</h4>
+                    <p><img src="images/location.png">ព្រៃរការ អង្គស្នួល</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#"> Close</a>    
+            </div>
+            <img src="images/final photoshop.jpg" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#"> Hide Chat</a>    
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/1.jpg">
+                </div>
+                <p>សួន ចន្ទតុលា</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/2.jpg">
+                </div>
+                <p>ស៊ុន សុភ័ក្រត្រា</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/4.jpg">
+                </div>
+                <p>ប្រាក់ សំណាង</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2023 - Pusokha Khim</p>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
